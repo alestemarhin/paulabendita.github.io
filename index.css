@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    @media screen {
+        max-width: 100%;
+    }
+}
+img{
+    padding: 15px;
+}
+header{
+    background-color: #ffffff;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+a{
+    background-color: aqua;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 70%;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: chocolate;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+section{
+    background-color: #ffffff;
+}
